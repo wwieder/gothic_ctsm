@@ -3,6 +3,7 @@ tools and plotting for CTSM simulations at Gothic, CO
 
 1) Clone CTSM
    - Follow steps on [CTSM-wiki](https://github.com/ESCOMP/CTSM/wiki/Quick-start-to-CTSM-development-with-git)
+   - run ./py_env_create
 2) Run subset data for single point
    ```
    ./subset_data point --lat 38.9375 --lon 253.0625 \
@@ -13,7 +14,6 @@ tools and plotting for CTSM simulations at Gothic, CO
    --overwrite
    --uniform-snowpack
    ```        
-
 3) Modify usermods to customize your settings
    - see `/glade/campaign/cgd/tss/people/wwieder/gothic/user_mods`
 4) Create and run new case
