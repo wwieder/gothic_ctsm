@@ -2,7 +2,7 @@
 tools and plotting for CTSM simulations at Gothic, CO
 
 1) Clone CTSM
-   - Follow steps on [CTSM-wiki]([url](https://github.com/ESCOMP/CTSM/wiki/Quick-start-to-CTSM-development-with-git)) 
+   - Follow steps on [CTSM-wiki](https://github.com/ESCOMP/CTSM/wiki/Quick-start-to-CTSM-development-with-git)
 2) Run subset data for single point
    ```
    ./subset_data point --lat 38.9375 --lon 253.0625 \
