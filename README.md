@@ -16,7 +16,7 @@ tools and plotting for CTSM simulations at Gothic, CO
    --overwrite
    ```        
 3) Modify usermods to customize your settings
-   - see `/glade/campaign/cgd/tss/people/wwieder/gothic/user_mods`
+   - see `/glade/campaign/cgd/tss/people/wwieder/gothic/user_mods_BGC`
 4) Create and run new case
    ```
    ./create_newcase --case /glade/derecho/scratch/$USER/nldas/gothic/aspen_sp \
