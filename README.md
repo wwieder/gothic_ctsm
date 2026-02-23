@@ -27,3 +27,4 @@ tools and plotting for CTSM simulations at Gothic, CO
    --user-mods-dir /glade/derecho/scratch/$USER/nldas/gothic_inputs/user_mods
    ```
    - See also this [tutorial example](https://github.com/wwieder/CTSM-Tutorial/blob/NEON_Tutorial_2023/notebooks/ProjectExamples/CTSMsp_NEON_fromScratch.ipynb)
+   - and the [CESM 2025 tutorial](https://ncar.github.io/CESM-Tutorial/README.html)
