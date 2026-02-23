@@ -19,11 +19,11 @@ tools and plotting for CTSM simulations at Gothic, CO
    - see `/glade/campaign/cgd/tss/people/wwieder/gothic/user_mods_BGC`
 4) Create and run new case
    ```
-   ./create_newcase --case /glade/derecho/scratch/$USER/nldas/gothic/aspen_sp \
+   ./create_newcase --case /glade/work/$USER/gothic/aspen_sp_test0 \
    --res CLM_USRDAT \
    --compset HIST_DATM%1PT_CLM60%SP_SICE_SOCN_SROF_SGLC_SWAV_SESP \
-   --output-root /glade/derecho/scratch/$USER/nldas/gothic
-   --run-unsupported
-   --user-mods-dir /glade/campaign/cgd/tss/people/wwieder/gothic/user_mods
+   --output-root /glade/derecho/scratch/$USER/gothic \
+   --run-unsupported \
+   --user-mods-dir /glade/derecho/scratch/$USER/nldas/gothic/user_mods
    ```
    - See also this [tutorial example](https://github.com/wwieder/CTSM-Tutorial/blob/NEON_Tutorial_2023/notebooks/ProjectExamples/CTSMsp_NEON_fromScratch.ipynb)
